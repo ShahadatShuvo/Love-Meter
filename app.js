@@ -37,11 +37,11 @@ function calculateStatus(status, value) {
 function calculateResult(str1, str2) {
     if ((str1 == 'nuri' || str1 == 'nurizerin' || str1 == 'nurijerin') && (str2 == 'shuvo' || str2 == 'shahadat' || str2 == 'hossainshuvo' || str2 == 'shahadatshuvo')) {
         section1.style.display = 'block';
-        yourCounter.textContent = `${93}%`;
-        partnerCounter.textContent = `${72}%`;
+        yourCounter.textContent = `${72}%`;
+        partnerCounter.textContent = `${93}%`;
         mutualCounter.textContent = `${83}%`;
-        calculateStatus(status1, 93);
-        calculateStatus(status2, 72);
+        calculateStatus(status1, 72);
+        calculateStatus(status2, 93);
         calculateStatus(status3, 83);
     } else if ((str2 == 'nuri' || str2 == 'nurizerin' || str2 == 'nurijerin') && (str1 == 'shuvo' || str1 == 'shahadat' || str1 == 'hossainshuvo' || str1 == 'shahadatshuvo')) {
         section1.style.display = 'block';
